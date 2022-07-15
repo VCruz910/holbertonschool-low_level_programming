@@ -22,9 +22,6 @@ unsigned int len;
 struct list_s *next;
 } list_t;
 
-/*Prototypes (misc.)*/
-int _putchar(char c);
-
 /*Prototypes (Mandatory Tasks)*/
 /*Prototype for 0-print_list.c*/
 size_t print_list(const list_t *h);
@@ -43,5 +40,7 @@ void free_list(list_t *head);
 
 
 /*Prototypes (Advanced Tasks)*/
+/*Prototype for 100-first*/
+void __attribute__ ((constructor)) Aesop();
 
 #endif
