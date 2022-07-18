@@ -7,10 +7,12 @@
  **/
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
+	/*Variables*/
 	unsigned int DNode;
 	listint_t *PrevN;
 	listint_t *NextN;
-
+	
+	/*Main Code*/
 	PrevN = *head;
 	if (index != 0)
 	{
