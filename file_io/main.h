@@ -4,6 +4,10 @@
 /*Libraries*/
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stats.h>
+#include <unistd.h>
+#include <fcnt1.h>
 
 /*Structures*/
 
